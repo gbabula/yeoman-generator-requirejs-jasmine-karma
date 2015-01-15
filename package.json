@@ -1,21 +1,24 @@
 {
-  "name": "generator-requirejs-jasmine-karma",
-  "version": "0.1.3",
+  "name": "generator-requirejs-jasmine-karma-2",
+  "version": "0.1.4",
   "description": "A generator for yeoman (RequireJS, Jasmine, Karma)",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "requirejs",
+    "jasmine",
+    "karma"
   ],
-  "homepage": "https://github.com/aleksandara/yeoman-generator-requirejs-jasmine-karma",
-  "bugs": "https://github.com/aleksandara/yeoman-generator-requirejs-jasmine-karma/issues",
+  "homepage": "https://github.com/gbabula/yeoman-generator-requirejs-jasmine-karma",
+  "bugs": "https://github.com/gbabula/yeoman-generator-requirejs-jasmine-karma/issues",
   "author": {
-    "name": "aleksandara",
-    "email": "aleksandara@gmail.com",
-    "url": "https://github.com/aleksandara"
+    "name": "Greg Babula",
+    "email": "gbabula@gmail.com",
+    "url": "https://github.com/gbabula"
   },
   "main": "app/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aleksandara/yeoman-generator-requirejs-jasmine-karma.git"
+    "url": "https://github.com/gbabula/yeoman-generator-requirejs-jasmine-karma.git"
   },
   "scripts": {
     "test": "mocha"

@@ -1,14 +1,13 @@
-/*global describe, it */
+/* global describe, it */
 
-define(['main'], function (main) {
-  describe('Give it some context', function () {
-    describe('maybe a bit more context here', function () {
-      it('should be something', function () {
-        expect(main.version).toEqual(_.VERSION);
-      });
+define(['main'], function(main) {
+
+    describe('main module test', function() {
+
+        it('should return a valid version', function() {
+            expect(main.version).toEqual(_.VERSION);
+        });
+
     });
-  });
+
 });
-
-
-
